@@ -102,7 +102,7 @@ void stopMotor() {
 
 
 ISR(TIMER1_COMPA_vect)
-{ //timer1 interrupt 1Hz toggles pin 13
+{ 
   inc++;
   if (inc > 25) //25 secs
   {
